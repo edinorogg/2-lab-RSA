@@ -105,6 +105,10 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< HEAD
+      <AdditionalOptions>/F 100000000000 %(AdditionalOptions)</AdditionalOptions>
+=======
+>>>>>>> d1275ad8d3d91cefbc5af5f0b41edda580ecbb90
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

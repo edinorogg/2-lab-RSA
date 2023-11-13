@@ -1,0 +1,11 @@
+﻿  RSA Test.cpp
+E:\Visual Studio\VC\Tools\MSVC\14.37.32822\include\stdfloat(13): warning STL4038: The contents of <stdfloat> are available only with C++23 or later.
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication2\RSA Test.cpp(198,40): warning C4101: e: неиспользованная локальная переменная
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication2\RSA Test.cpp(269,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication2\RSA Test.cpp(363,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication2\RSA Test.cpp(364,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication2\RSA Test.cpp(370,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication2\RSA Test.cpp(371,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication2\RSA Test.cpp(376,34): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication2\RSA Test.cpp(377,34): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  ConsoleApplication2.vcxproj -> C:\Users\ulyan\source\repos\2 lab RSA\x64\Debug\RSA Test.exe
