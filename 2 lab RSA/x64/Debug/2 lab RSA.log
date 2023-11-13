@@ -1,0 +1,4 @@
+﻿  attack RSA.cpp
+E:\Visual Studio\VC\Tools\MSVC\14.37.32822\include\stdfloat(13): warning STL4038: The contents of <stdfloat> are available only with C++23 or later.
+C:\Users\ulyan\source\repos\2 lab RSA\2 lab RSA\attack RSA.cpp(220,34): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  2 lab RSA.vcxproj -> C:\Users\ulyan\source\repos\2 lab RSA\x64\Debug\2 lab RSA.exe

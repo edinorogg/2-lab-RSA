@@ -18,8 +18,22 @@
     <ClCompile Include="attack RSA.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+<<<<<<< HEAD
+    <ClCompile Include="endlessfraction.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+=======
+>>>>>>> d1275ad8d3d91cefbc5af5f0b41edda580ecbb90
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <ClInclude Include="endlessfraction.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+=======
+>>>>>>> d1275ad8d3d91cefbc5af5f0b41edda580ecbb90
 </Project>
