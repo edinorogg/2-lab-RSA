@@ -1,0 +1,5 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication1\ConsoleApplication1.cpp(122,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication1\ConsoleApplication1.cpp(128,35): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\ulyan\source\repos\2 lab RSA\ConsoleApplication1\ConsoleApplication1.cpp(133,34): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  ConsoleApplication1.vcxproj -> C:\Users\ulyan\source\repos\2 lab RSA\x64\Debug\ConsoleApplication1.exe

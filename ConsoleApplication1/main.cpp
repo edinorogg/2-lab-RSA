@@ -92,13 +92,25 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     long long test_value;
+    bool flag = false;
     do {
         cout << "Пожалуйста, введите число для проверки" << endl;
         cin >> test_value;
+        if (test_value <= 0) {
+            cout << "По определению простые числа положительные. Вы вводите отрицательное число или 0 " << endl;
+        }
         if (test_value && 1 != 1) {
             cout << "Введённое вами число не простое, поскольку делится на 2. Пожалуйста, введите нечётное число" << endl;
         }
-    } while (test_value && 1 != 1);
+        if (test_value == 1 || test_value == 2) {
+            cout << "Это число точно простое. Попробуйте другое число" << endl;
+        }
+        if ((test_value > 2) && (test_value && 1 == 1)) {
+            flag = true;
+        }
+      
+
+    } while (!flag);
 
     Test variant = choose_test();
     double is_prime_min_probability = get_probability();

@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <ClCompile Include="main.cpp" />
+=======
     <ClCompile Include="ConsoleApplication1.cpp" />
+>>>>>>> d1275ad8d3d91cefbc5af5f0b41edda580ecbb90
     <ClCompile Include="FermaTest.cpp" />
     <ClCompile Include="MillerRabinTest.cpp" />
     <ClCompile Include="PrimalityTest.cpp" />
