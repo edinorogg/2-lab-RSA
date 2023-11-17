@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include<string>
+#include <cmath>
 
 #include <random>
 #include <unordered_set>
@@ -16,6 +17,7 @@ using boost::multiprecision::cpp_int;
 using namespace boost::multiprecision;
 using std::vector;
 
+long eucledian_algorythm(long a, long b) {
 
 template<typename t>
 t eucledian_algorythm(t a, t b) {
@@ -39,8 +41,10 @@ long mod_pow(long base, long exponent, long  mod) {
         if (exponent % 2 == 1) {
             result = (result * base) % mod;
         }
+        // Возводим base в квадрат и берем остаток по модулю
         base = (base * base) % mod;
 
+        // Экспонента сдвигается вправо
         exponent >>= 1;
     }
 
@@ -234,8 +238,8 @@ public:
                         cout << "q " << pq << endl;
                         cout << "phiN " << possible_phi << endl;
 
-                        return 0;
-                    }
+        return 0;
+    }
                 }
             }
             else{

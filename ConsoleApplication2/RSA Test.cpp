@@ -332,6 +332,7 @@ bool SoloveiStrassenTest::customize_test(const cpp_int &test_value) {
     if (s == test_value - 1) {
         s = -1;
     }
+    cout << "s is " << s << endl;
     if (jacobisymbol != s) {
         throw(std::exception)"Число не прошло тест";
     }
